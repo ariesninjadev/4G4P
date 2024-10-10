@@ -1,0 +1,9 @@
+name: 4G4P
+version: '1.0-SNAPSHOT'
+main: com.ariesninja.Game4G4P
+api-version: '1.21'
+commands:
+  startitems:
+    description: Starts giving players random items every 5 seconds.
+  stopitems:
+    description: Stops giving players random items.

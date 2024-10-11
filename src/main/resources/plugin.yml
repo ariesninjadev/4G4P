@@ -4,6 +4,8 @@ main: com.ariesninja.Game4G4P
 api-version: '1.21'
 commands:
   startitems:
-    description: Starts giving players random items every 5 seconds.
+    description: Starts giving players random items every n seconds.
   stopitems:
     description: Stops giving players random items.
+  setitemcooldown:
+    description: Changes the cooldown between item drops.

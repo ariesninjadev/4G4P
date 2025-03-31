@@ -3,9 +3,11 @@ version: '1.0-SNAPSHOT'
 main: com.ariesninja.Game4G4P
 api-version: '1.21'
 commands:
-  startitems:
+  startround:
     description: Starts giving players random items every n seconds.
-  stopitems:
+  stopround:
     description: Stops giving players random items.
   setitemcooldown:
     description: Changes the cooldown between item drops.
+  resetscores:
+    description: Reset all scoreboard data.
